@@ -3,6 +3,7 @@
 
 ##PATH
 $env:Path += ";C:\dev\bin\git\bin\"
+$env:Path += ";C:\dev\src\nikola\Scripts\"
 
 #################################################
 # Functions
@@ -71,3 +72,4 @@ Set-Alias src cd_src
 Set-Alias chrome "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 Set-Alias npp "C:\dev\bin\notepad++\notepad++.exe"
 Set-Alias charm "C:\dev\bin\jetbrains\PyCharm 2016.3.2\bin\pycharm.exe"
+# Set-Alias xl 
